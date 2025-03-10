@@ -84,6 +84,31 @@ a:hover {
     align-items: center; 
 }
 
+.site-footer {
+    width: 100%;
+    background-color: var(--color-deep-black);
+    color: var(--color-gold); 
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-footer p {
+    margin: 5px 0;
+
+}
+
+
 @media (max-width: 600px) {
     .container {
         flex-direction: column;
@@ -137,6 +162,11 @@ a:hover {
 
     .links {
         max-width: 100%;
+    }
+
+    .site-footer {
+        font-size: 12px;
+        padding: 10px 0;
     }
 }
 
