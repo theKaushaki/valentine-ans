@@ -33,3 +33,7 @@ The user can choose **"Yes"** or **"No"**, but clicking **"No"** too many times 
 3. Open `index.html` in your browser or use **Live Server** in VS Code.
 
 ---
+
+---
+
+### Made with ❤️ by theKaushaki
