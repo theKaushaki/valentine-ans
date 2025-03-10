@@ -34,6 +34,4 @@ The user can choose **"Yes"** or **"No"**, but clicking **"No"** too many times 
 
 ---
 
----
-
 ### Made with ❤️ by theKaushaki
