@@ -1,0 +1,84 @@
+:root {
+    /* Primary Colors */
+    --color-dark-blue: #2a3b5f; /* Inspired by the shadows and TARDIS in the first image */
+    --color-gold: #d4af37; /* Highlight from the light in the first image */
+    --color-deep-black: #1c1c1c; /* Background darkness from both images */
+  
+    /* Secondary Colors */
+    --color-forest-green: #4a6e4f; /* Earthy green from plants in the second image */
+    --color-muted-brown: #8b5a2b; /* Skeleton and soil tones from the second image */
+    --color-rose-red: #c84e4e; /* Floral accents from roses in the second image */
+  
+    /* Accent Colors */
+    --color-moonlight-yellow: #f0e68c; /* Glow of moonlight in the second image */
+    --color-dusty-orange: #d08a57; /* Subtle warmth for balance */
+    --color-silver-gray: #b0b0b0; /* Metallic tones for highlights */
+  
+    /* Neutral Colors */
+    --color-light-cream: #f5f5dc; /* For text or subtle backgrounds */
+    --color-soft-gray: #d3d3d3; /* For borders or muted elements */
+  }
+
+html {
+    height: auto;
+    width: auto;
+}
+
+body {
+    background-color: var(--color-deep-black);
+
+}
+
+h1 {
+    color: var(--color-gold);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.answer-buttons {
+    text-align: center;
+    word-spacing: 3rem;
+}
+
+.links {
+    color: var(--color-moonlight-yellow);
+    padding: 12px 12px;
+    border: 2px double var(--color-muted-brown);
+    border-radius: 12px;
+    text-align: center;
+    background-color: var(--color-deep-black);
+    box-shadow: var(--color-soft-gray);
+
+}
+
+a:hover {
+    color: var(--color-silver-gray);
+    border: 2px solid var(--color-deep-black);
+    transform: scale(1.05);
+}
+
+.in-love {
+    padding: 18px;
+    height: auto;
+    width: auto;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yes-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center; 
+}
